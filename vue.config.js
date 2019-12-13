@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '<quote-requests>',
+  publicPath: process.env.NODE_ENV === 'production' ? '/quote-requests' : '/' ,
   pages: {
     index: {
       // entry for the page
