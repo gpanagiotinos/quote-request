@@ -16,4 +16,4 @@ yarn build-deploy
 echo Deploying.. 
 git add -A 
 git commit -m 'deploy' 
-git push -f https://github.com/gpanagiotinos/quote-requests.git master
+git push -f https://github.com/gpanagiotinos/quote-request.git master
