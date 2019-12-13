@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '<quote-requests>',
   pages: {
     index: {
       // entry for the page
